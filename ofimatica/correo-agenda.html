@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Curso de correo y agenda — Ofimática</title>
+<link rel="icon" type="image/png" href="img/logo-eddi.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- BANNER SUPERIOR -->
+  <header class="banner">
+    <a class="banner__brand" href="index.html">
+      <span class="banner__text">
+        <span class="banner__title">EDDI</span>
+        <span class="banner__subtitle">Entorno Digital de Desarrollo Interactivo</span>
+      </span>
+    </a>
+    <img class="banner__logo" src="img/logo-eddi.png" alt="Logo de EDDI" width="192" height="192">
+  </header>
+
+  <!-- BARRA LATERAL: enlaces a las secciones de esta página -->
+  <nav class="ribbon" aria-label="Secciones del curso">
+    <div class="ribbon__brand">
+      Ofimática
+      <span>Curso de correo y agenda</span>
+    </div>
+    <ul>
+      <li><a href="index.html">Volver a la guía</a></li>
+      <li><a href="#bienvenida">Bienvenida</a></li>
+      <li><a href="#aprenderas">Lo que aprenderás</a></li>
+      <li><a href="#gmail">Gmail</a></li>
+      <li><a href="#notion">Notion</a></li>
+      <li><a href="#youtube">Videos de YouTube</a></li>
+      <li><a href="#otros-cursos">Otros cursos</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <div class="container">
+
+      <!-- BIENVENIDA -->
+      <header class="hero hero--course" id="bienvenida">
+        <div class="hero__text">
+          <h1>BIENVENIDO AL CURSO DE CORREO Y AGENDA</h1>
+          <hr class="hero__rule">
+          <p>En este curso aprenderás a manejar tu correo electrónico con Gmail y a organizar tu tiempo y tus apuntes con Notion: agendas, listas de tareas y notas por materia.</p>
+        </div>
+        <div class="hero__art">
+          <img src="img/notion.png" alt="Logo de Notion" width="300" height="312">
+        </div>
+      </header>
+
+      <!-- LO QUE APRENDERÁS -->
+      <section id="aprenderas">
+        <h2>Lo que aprenderás</h2>
+        <p class="lead">Al terminar el curso podrás:</p>
+        <ul class="ventajas">
+          <li><span class="ventajas__marca"></span><span>Entender cómo funciona Gmail: conversaciones, etiquetas y búsqueda.</span></li>
+          <li><span class="ventajas__marca"></span><span>Redactar, enviar y responder correos, con archivos adjuntos.</span></li>
+          <li><span class="ventajas__marca"></span><span>Crear páginas y bloques de contenido en Notion.</span></li>
+          <li><span class="ventajas__marca"></span><span>Armar una agenda con calendario y recordatorios.</span></li>
+          <li><span class="ventajas__marca"></span><span>Llevar listas de tareas y tableros de pendientes.</span></li>
+          <li><span class="ventajas__marca"></span><span>Organizar tus apuntes por materia o proyecto.</span></li>
+        </ul>
+      </section>
+
+      <!-- GMAIL -->
+      <section id="gmail">
+        <h2>Gmail</h2>
+        <p class="lead">Primero los documentos de estudio y después el video.</p>
+        <h3 class="grupo__titulo">Documentos</h3>
+        <ul class="docs">
+          <li class="doc">
+            <div>
+              <span class="doc__name">Curso de Gmail 1</span>
+              <span class="doc__meta">PDF, 30 páginas, 1,3 MB</span>
+            </div>
+            <div class="doc__acciones">
+              <a class="btn btn--small" href="docs/correo-agenda/curso-de-gmail1.pdf" target="_blank" rel="noopener">Abrir</a>
+              <a class="btn btn--small" href="docs/correo-agenda/curso-de-gmail1.pdf" download>Descargar</a>
+            </div>
+          </li>
+          <li class="doc">
+            <div>
+              <span class="doc__name">Curso de Gmail 2</span>
+              <span class="doc__meta">PDF, 19 páginas, 13,4 MB</span>
+            </div>
+            <div class="doc__acciones">
+              <a class="btn btn--small" href="docs/correo-agenda/curso-gmail2.pdf" target="_blank" rel="noopener">Abrir</a>
+              <a class="btn btn--small" href="docs/correo-agenda/curso-gmail2.pdf" download>Descargar</a>
+            </div>
+          </li>
+        </ul>
+        <h2>Video de introducción</h2>
+        <div class="videos">
+          <div class="video">
+            <div class="video__frame">
+              <video controls playsinline preload="metadata" src="videos/correo-agenda/dominando-gmail.mp4">
+                Tu navegador no puede reproducir este video.
+              </video>
+            </div>
+            <h3>Dominando Gmail</h3>
+            <p>Duración: 7 min 25 s</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- NOTION -->
+      <section id="notion">
+        <h2>Notion</h2>
+        <p class="lead">El video de apoyo para empezar con Notion.</p>
+        <h2>Video de introducción</h2>
+        <div class="videos">
+          <div class="video">
+            <div class="video__frame">
+              <video controls playsinline preload="metadata" src="videos/correo-agenda/fundamentos-de-notion.mp4">
+                Tu navegador no puede reproducir este video.
+              </video>
+            </div>
+            <h3>Fundamentos de Notion</h3>
+            <p>Duración: 7 min 13 s</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- VIDEOS DE YOUTUBE -->
+      <section id="youtube">
+        <h2>Videos de YouTube</h2>
+        <p class="lead">Enlaces a videos complementarios del curso.</p>
+        <p class="lead">ACLARACIÓN Y RECOMENDACIÓN: Los videos utilizados pueden ser largos, así que recomendamos 
+          dividir tu tiempo para aprender una sección específica sin confundirte </p>
+
+        <div class="enlaces">
+          <a class="enlace" href="https://youtu.be/2QxrSZrWf20" target="_blank" rel="noopener">
+            <span class="enlace__icono" aria-hidden="true"></span>
+            <span class="enlace__titulo">
+🔴 CURSO COMPLETO DE GMAIL en español 2025</span>
+            <span class="enlace__estado"></span>
+          </a>
+          <a class="enlace" href="https://youtu.be/_-K0NwPrxfE" target="_blank" rel="noopener">
+            <span class="enlace__icono" aria-hidden="true"></span>
+            <span class="enlace__titulo">
+Cómo usar Notion desde cero 2026. Paso a paso para organizarte</span>
+            <span class="enlace__estado"></span>
+          </a>
+          <a class="enlace" href="https://youtu.be/rA4wHwIrB6w" target="_blank" rel="noopener">
+            <span class="enlace__icono" aria-hidden="true"></span>
+            <span class="enlace__titulo">
+Organiza tu vida y tus proyectos con Notion | CURSO COMPLETO DE NOTION GRATIS de cero a PRO</span>
+            <span class="enlace__estado"></span>
+          </a>
+        </div>
+      </section>
+
+      <!-- OTROS CURSOS -->
+      <section id="otros-cursos">
+        <h2>Otros cursos</h2>
+        <p class="lead">Continúa con otra herramienta de la guía.</p>
+        <div class="cursos-links">
+          <a class="btn" href="procesador-texto.html">Procesador de textos</a>
+          <a class="btn" href="hoja-calculo.html">Hoja de cálculo</a>
+          <a class="btn" href="presentaciones.html">Presentaciones</a>
+          <a class="btn" href="base-datos.html">Base de datos</a>
+          <a class="btn btn--solid" href="index.html">Volver a la guía</a>
+        </div>
+      </section>
+
+      <footer>
+         Ésta es una página elaborada con fines académicos.
+      </footer>
+
+    </div>
+  </main>
+<script src="script.js" defer></script>
+
+</body>
+</html>

@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Curso de base de datos — Ofimática</title>
+<link rel="icon" type="image/png" href="img/logo-eddi.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- BANNER SUPERIOR -->
+  <header class="banner">
+    <a class="banner__brand" href="index.html">
+      <span class="banner__text">
+        <span class="banner__title">EDDI</span>
+        <span class="banner__subtitle">Entorno Digital de Desarrollo Interactivo</span>
+      </span>
+    </a>
+    <img class="banner__logo" src="img/logo-eddi.png" alt="Logo de EDDI" width="192" height="192">
+  </header>
+
+  <!-- BARRA LATERAL: enlaces a las secciones de esta página -->
+  <nav class="ribbon" aria-label="Secciones del curso">
+    <div class="ribbon__brand">
+      Ofimática
+      <span>Curso de base de datos</span>
+    </div>
+    <ul>
+      <li><a href="index.html">Volver a la guía</a></li>
+      <li><a href="#bienvenida">Bienvenida</a></li>
+      <li><a href="#aprenderas">Lo que aprenderás</a></li>
+      <li><a href="#documentos">Documentos</a></li>
+      <li><a href="#videos">Videos</a></li>
+      <li><a href="#youtube">Videos de YouTube</a></li>
+      <li><a href="#otros-cursos">Otros cursos</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <div class="container">
+
+      <!-- BIENVENIDA -->
+      <header class="hero hero--course" id="bienvenida">
+        <div class="hero__text">
+          <h1>BIENVENIDO AL CURSO DE BASE DE DATOS</h1>
+          <hr class="hero__rule">
+          <p>En este curso conocerás cómo se guardan los datos en una base de datos y aprenderás SQL, el lenguaje que se usa para crear tablas, consultar información y modificarla.</p>
+        </div>
+        <div class="hero__art">
+          <img src="img/sql.png" alt="Logo de SQL" width="420" height="206">
+        </div>
+      </header>
+
+      <!-- LO QUE APRENDERÁS -->
+      <section id="aprenderas">
+        <h2>Lo que aprenderás</h2>
+        <p class="lead">Al terminar el curso podrás:</p>
+        <ul class="ventajas">
+          <li><span class="ventajas__marca"></span><span>Entender qué es una base de datos, una tabla, un registro y un campo.</span></li>
+          <li><span class="ventajas__marca"></span><span>Crear tablas con CREATE TABLE y elegir tipos de datos básicos.</span></li>
+          <li><span class="ventajas__marca"></span><span>Agregar, modificar y eliminar datos con INSERT, UPDATE y DELETE.</span></li>
+          <li><span class="ventajas__marca"></span><span>Consultar información con SELECT, WHERE y ORDER BY.</span></li>
+          <li><span class="ventajas__marca"></span><span>Relacionar tablas con claves primarias, claves foráneas y JOIN.</span></li>
+        </ul>
+      </section>
+
+      <!-- DOCUMENTOS -->
+      <section id="documentos">
+        <h2>Documentos del curso</h2>
+        <p class="lead">Los dos documentos de estudio del curso.</p>
+        
+        <ul class="docs">
+          <li class="doc">
+            <div>
+              <span class="doc__name">Curso de MySQL</span>
+              <span class="doc__meta">PDF, 259 páginas, 1,2 MB</span>
+            </div>
+            <div class="doc__acciones">
+              <a class="btn btn--small" href="docs/base-datos/curso-de-mysql.pdf" target="_blank" rel="noopener">Abrir</a>
+              <a class="btn btn--small" href="docs/base-datos/curso-de-mysql.pdf" download>Descargar</a>
+            </div>
+          </li>
+          <li class="doc">
+            <div>
+              <span class="doc__name">Microsoft Access 2016</span>
+              <span class="doc__meta">PDF, 169 páginas, 32,8 MB</span>
+            </div>
+            <div class="doc__acciones">
+              <a class="btn btn--small" href="docs/base-datos/microsoft-access-2016.pdf" target="_blank" rel="noopener">Abrir</a>
+              <a class="btn btn--small" href="docs/base-datos/microsoft-access-2016.pdf" download>Descargar</a>
+            </div>
+          </li>
+        </ul>
+      </section>
+
+      <!-- VIDEOS -->
+      <section id="videos">
+        <h2>Video de introducción</h2>
+        
+        <div class="videos">
+          <div class="video">
+            <div class="video__frame">
+              <video controls playsinline preload="metadata" src="videos/base-datos/dominando-las-bases-de-datos.mp4">
+                Tu navegador no puede reproducir este video.
+              </video>
+            </div>
+            <h3>Dominando las bases de datos</h3>
+            <p>Duración: 8 min 32 s</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- VIDEOS DE YOUTUBE -->
+      <section id="youtube">
+        <h2>Videos de YouTube</h2>
+        <p class="lead">Enlaces a videos complementarios del curso.</p>
+        <p class="lead">ACLARACIÓN Y RECOMENDACIÓN: Los videos utilizados pueden ser largos, así que recomendamos 
+          dividir tu tiempo para aprender una sección específica sin confundirte </p>
+
+        <div class="enlaces">
+          <a class="enlace" href="https://youtu.be/OuJerKzV5T0" target="_blank" rel="noopener">
+            <span class="enlace__icono" aria-hidden="true"></span>
+            <span class="enlace__titulo">
+Curso COMPLETO de SQL y BASES DE DATOS Desde Cero para PRINCIPIANTES</span>
+            <span class="enlace__estado"></span>
+          </a>
+          <a class="enlace" href="https://youtu.be/_avOWmCh_Xs" target="_blank" rel="noopener">
+            <span class="enlace__icono" aria-hidden="true"></span>
+            <span class="enlace__titulo">
+Curso Rápido de Access</span>
+            <span class="enlace__estado"></span>
+          </a>
+          <a class="enlace" href="https://youtu.be/8N4M994IDt8" target="_blank" rel="noopener">
+            <span class="enlace__icono" aria-hidden="true"></span>
+            <span class="enlace__titulo">
+CURSO COMPLETO de SQL y BASES DE DATOS Desde Cero (8 horas)</span>
+            <span class="enlace__estado"></span>
+          </a>
+        </div>
+      </section>
+
+      <!-- OTROS CURSOS -->
+      <section id="otros-cursos">
+        <h2>Otros cursos</h2>
+        <p class="lead">Continúa con otra herramienta de la guía.</p>
+        <div class="cursos-links">
+          <a class="btn" href="procesador-texto.html">Procesador de textos</a>
+          <a class="btn" href="hoja-calculo.html">Hoja de cálculo</a>
+          <a class="btn" href="presentaciones.html">Presentaciones</a>
+          <a class="btn" href="correo-agenda.html">Correo y agenda</a>
+          <a class="btn btn--solid" href="index.html">Volver a la guía</a>
+        </div>
+      </section>
+
+      <footer>
+         Ésta es una página elaborada con fines académicos.
+      </footer>
+
+    </div>
+  </main>
+<script src="script.js" defer></script>
+
+</body>
+</html>

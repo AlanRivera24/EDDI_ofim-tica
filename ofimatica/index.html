@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ofimática — Introducción a las herramientas</title>
+   <link rel="icon" type="image/png" href="img/logo-eddi.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Para el banner es esto -->
+  <header class="banner">
+    <a class="banner__brand" href="index.html">
+      <span class="banner__text">
+        <span class="banner__title">EDDI</span>
+        <span class="banner__subtitle">Entorno Digital de Desarrollo Interactivo</span>
+      </span>
+    </a>
+    <img class="banner__logo" src="img/logo-eddi.png" alt="Logo de EDDI" width="192" height="192">
+  </header>
+
+
+  <!--
+       BARRA LATERAL DE NAVEGACIÓN
+       Si le quieres poner algo mas entoces solo agregas un <a href="#tu-id"> aquí
+       y crea la <section id="tu-id"> más abajo. -->
+  <nav class="ribbon" aria-label="Secciones del documento">
+    <div class="ribbon__brand">
+      Ofimática
+      <span>Guía de herramientas</span>
+    </div>
+    <ul>
+      <li><a href="#inicio">Inicio</a></li>
+      <li><a href="#que-es">Qué es la ofimática</a></li>
+      <li><a href="#procesador">Procesador de texto</a></li>
+      <li><a href="#hoja-calculo">Hoja de cálculo</a></li>
+      <li><a href="#presentaciones">Presentaciones</a></li>
+      <li><a href="#base-datos">Base de datos</a></li>
+      <li><a href="#correo-agenda">Correo y agenda</a></li>
+      <li><a href="#comparativa">Software libre y privativo</a></li>
+      <li><a href="#importancia">Importancia</a></li>
+      <li><a href="#notas">Mensaje</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <div class="container">
+
+      <!-- HERO -->
+      <header class="hero" id="inicio">
+        <div class="hero__text">
+          <h1>Ofimática</h1>
+          <hr class="hero__rule">
+          <p>Las herramientas digitales que organizan, redactan y comunican el trabajo de una oficina: desde un texto hasta una hoja de cálculo o una presentación.</p>
+        </div>
+        <div class="hero__art" aria-hidden="true">
+          <svg width="220" height="200" viewBox="0 0 220 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect x="10" y="50" width="130" height="95" rx="6" stroke="#c7a356" stroke-width="1.5"/>
+            <rect x="45" y="25" width="130" height="95" rx="6" stroke="#e3cfa0" stroke-width="1.5"/>
+            <rect x="80" y="70" width="130" height="95" rx="6" stroke="#c7a356" stroke-width="1.5" fill="#0d1b33"/>
+            <line x1="98" y1="90" x2="192" y2="90" stroke="#233f6b" stroke-width="1.5"/>
+            <line x1="98" y1="105" x2="175" y2="105" stroke="#233f6b" stroke-width="1.5"/>
+            <line x1="98" y1="120" x2="185" y2="120" stroke="#233f6b" stroke-width="1.5"/>
+          </svg>
+        </div>
+      </header>
+
+      <!-- QUÉ ES LA OFIMÁTICA -->
+      <section id="que-es">
+        <h2>Qué es la ofimática</h2>
+        <p class="lead">
+          La palabra nace de la unión entre <em>oficina</em> e <em>informática</em>. Se refiere al conjunto de técnicas,
+          aplicaciones y herramientas que se usan para automatizar, optimizar y mejorar las tareas que antes se hacían
+          a mano en una oficina: escribir cartas, llevar cuentas, archivar información o preparar una reunión.
+        </p>
+        <p>
+          Antes de la computadora personal, estas tareas dependían de máquinas de escribir, calculadoras mecánicas y
+          archivos en papel. Con la llegada del software de oficina en los años ochenta, un mismo equipo pudo redactar,
+          calcular, presentar y organizar datos, lo que cambió por completo la manera de trabajar en cualquier empresa,
+          institución o colegio.
+        </p>
+      </section>
+
+      <!-- PROCESADOR DE TEXTO -->
+      <section id="procesador">
+        <h2>Procesador de texto</h2>
+        <p class="lead">El programa dedicado a redactar, corregir y dar formato a documentos escritos.</p>
+        <div class="panel">
+          <div class="panel__layout">
+            <div class="panel__text">
+              <h3>Para qué sirve</h3>
+              <p>Permite escribir cartas, informes, ensayos o trabajos académicos, y ofrece herramientas de corrección
+              ortográfica, estilos de párrafo, tablas, numeración e inserción de imágenes.</p>
+              <ul>
+                <li>Formato de texto: fuente, tamaño, alineación, interlineado</li>
+                <li>Corrector ortográfico y gramatical</li>
+                <li>Plantillas para cartas, currículums e informes</li>
+                <li>Control de cambios y comentarios para revisión conjunta</li>
+              </ul>
+              <p class="panel__examples"><strong>Ejemplos:</strong> Microsoft Word, Google Docs, LibreOffice Writer</p>
+              <details>
+                <summary>Consejo de uso</summary>
+                <div class="details__body">
+                  Usa estilos de título (Título 1, Título 2) en lugar de agrandar el texto manualmente: así el documento
+                  puede generar automáticamente una tabla de contenidos.
+                </div>
+              </details>
+            </div>
+            <aside class="panel__side">
+              <img class="logo" src="img/word.png" alt="Logo de Word" width="360" height="331" loading="lazy">
+              <a class="btn" href="procesador-texto.html" aria-label="Entrar al curso de procesador de textos">Entrar al curso</a>
+            </aside>
+          </div>
+        </div>
+      </section>
+
+      <!-- HOJA DE CÁLCULO -->
+      <section id="hoja-calculo">
+        <h2>Hoja de cálculo</h2>
+        <p class="lead">Organiza datos en filas y columnas y permite calcular, analizar y graficar información.</p>
+        <div class="panel">
+          <div class="panel__layout">
+            <div class="panel__text">
+              <h3>Para qué sirve</h3>
+              <p>Se usa para presupuestos, registros de pagos, notas de clase, inventarios o cualquier dato que necesite
+              sumarse, ordenarse o representarse en un gráfico.</p>
+              <ul>
+                <li>Fórmulas y funciones (SUMA, PROMEDIO, SI, BUSCARV)</li>
+                <li>Gráficos de barras, líneas y circulares</li>
+                <li>Filtros y tablas dinámicas para grandes volúmenes de datos</li>
+                <li>Validación de datos para evitar errores de captura</li>
+              </ul>
+              <p class="panel__examples"><strong>Ejemplos:</strong> Microsoft Excel, Google Sheets, LibreOffice Calc</p>
+              <details>
+                <summary>Consejo de uso</summary>
+                <div class="details__body">
+                  Nombra los rangos de celdas que uses con frecuencia (por ejemplo, "Gastos_Enero"); las fórmulas quedan
+                  mucho más fáciles de leer que con referencias como B2:B15.
+                </div>
+              </details>
+            </div>
+            <aside class="panel__side">
+              <img class="logo" src="img/excel.png" alt="Logo de Excel" width="360" height="333" loading="lazy">
+              <a class="btn" href="hoja-calculo.html" aria-label="Entrar al curso de hoja de cálculo">Entrar al curso</a>
+            </aside>
+          </div>
+        </div>
+      </section>
+
+      <!-- PRESENTACIONES -->
+      <section id="presentaciones">
+        <h2>Presentaciones</h2>
+        <p class="lead">Convierte ideas en diapositivas visuales para exponer un tema frente a una audiencia.</p>
+        <div class="panel">
+          <div class="panel__layout">
+            <div class="panel__text">
+              <h3>Para qué sirve</h3>
+              <p>Se usa en exposiciones de clase, defensas de proyecto, reuniones de trabajo o cualquier situación donde
+              una idea se explica apoyándose en imágenes, esquemas o videos.</p>
+              <ul>
+                <li>Diseño de diapositivas con plantillas y transiciones</li>
+                <li>Inserción de imágenes, gráficos y videos</li>
+                <li>Animaciones para guiar la atención del público</li>
+                <li>Modo de presentador con notas privadas</li>
+              </ul>
+              <p class="panel__examples"><strong>Ejemplos:</strong> Microsoft PowerPoint, Google Slides, LibreOffice Impress</p>
+              <details>
+                <summary>Consejo de uso</summary>
+                <div class="details__body">
+                  Limita cada diapositiva a una sola idea principal: si el texto no cabe en pocas líneas, probablemente
+                  necesitas dividirlo en dos diapositivas.
+                </div>
+              </details>
+            </div>
+            <aside class="panel__side">
+              <img class="logo" src="img/powerpoint.png" alt="Logo de PowerPoint" width="380" height="325" loading="lazy">
+              <a class="btn" href="presentaciones.html" aria-label="Entrar al curso de presentaciones">Entrar al curso</a>
+            </aside>
+          </div>
+        </div>
+      </section>
+
+      <!-- BASE DE DATOS -->
+      <section id="base-datos">
+        <h2>Base de datos</h2>
+        <p class="lead">Almacena y relaciona grandes cantidades de información de forma ordenada y consultable.</p>
+        <div class="panel">
+          <div class="panel__layout">
+            <div class="panel__text">
+              <h3>Para qué sirve</h3>
+              <p>A diferencia de una hoja de cálculo, una base de datos está pensada para manejar miles de registros
+              relacionados entre sí: clientes, productos, pedidos, estudiantes o pacientes.</p>
+              <ul>
+                <li>Tablas relacionadas mediante claves primarias y foráneas</li>
+                <li>Formularios para capturar información de forma controlada</li>
+                <li>Consultas (queries) para filtrar información específica</li>
+                <li>Reportes listos para imprimir o exportar</li>
+              </ul>
+              <p class="panel__examples"><strong>Ejemplos:</strong> Microsoft Access, LibreOffice Base, MySQL</p>
+              <details>
+                <summary>Consejo de uso</summary>
+                <div class="details__body">
+                  Antes de crear las tablas, dibuja en papel qué información se relaciona con qué (por ejemplo, un
+                  alumno con sus calificaciones); ese boceto se llama diagrama entidad-relación.
+                </div>
+              </details>
+            </div>
+            <aside class="panel__side">
+              <img class="logo logo--sql" src="img/sql.png" alt="Logo de SQL" width="420" height="206" loading="lazy">
+              <a class="btn" href="base-datos.html" aria-label="Entrar al curso de base de datos">Entrar al curso</a>
+            </aside>
+          </div>
+        </div>
+      </section>
+
+      <!-- CORREO Y AGENDA -->
+      <section id="correo-agenda">
+        <h2>Correo electrónico y agenda</h2>
+        <p class="lead">Gestiona la comunicación escrita y la organización del tiempo.</p>
+        <div class="panel">
+          <div class="panel__layout">
+            <div class="panel__text">
+              <h3>Para qué sirve</h3>
+              <p>Permite enviar y recibir mensajes formales, programar reuniones, compartir archivos adjuntos y llevar
+              un calendario de tareas y recordatorios.</p>
+              <ul>
+                <li>Bandeja de entrada organizada por carpetas y etiquetas</li>
+                <li>Calendario compartido para coordinar reuniones</li>
+                <li>Firmas y plantillas de correo</li>
+                <li>Recordatorios y notificaciones automáticas</li>
+              </ul>
+              <p class="panel__examples"><strong>Ejemplos:</strong> Microsoft Outlook, Gmail, Google Calendar</p>
+              <details>
+                <summary>Consejo de uso</summary>
+                <div class="details__body">
+                  Un asunto de correo claro ("Entrega de informe — 22 de septiembre") ahorra tiempo a quien lo recibe y
+                  facilita encontrar el mensaje después.
+                </div>
+              </details>
+            </div>
+            <aside class="panel__side">
+              <img class="logo logo--notion" src="img/notion.png" alt="Logo de Notion" width="300" height="312" loading="lazy">
+              <a class="btn" href="correo-agenda.html" aria-label="Entrar al curso de correo y agenda">Entrar al curso</a>
+            </aside>
+          </div>
+        </div>
+      </section>
+
+      <!-- COMPARATIVA -->
+      <section id="comparativa">
+        <h2>Software libre y privativo</h2>
+        <p class="lead">La mayoría de estas herramientas existen en dos versiones: de pago (privativo) y gratuita (libre).</p>
+        <table>
+          <thead>
+            <tr>
+              <th>Categoría</th>
+              <th>Software libre</th>
+              <th>Software privativo</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td>Procesador de texto</td><td>LibreOffice Writer</td><td>Microsoft Word</td></tr>
+            <tr><td>Hoja de cálculo</td><td>LibreOffice Calc</td><td>Microsoft Excel</td></tr>
+            <tr><td>Presentaciones</td><td>LibreOffice Impress</td><td>Microsoft PowerPoint</td></tr>
+            <tr><td>Base de datos</td><td>LibreOffice Base</td><td>Microsoft Access</td></tr>
+            <tr><td>Correo electrónico</td><td>Thunderbird</td><td>Microsoft Outlook</td></tr>
+          </tbody>
+        </table>
+      </section>
+
+      <!-- IMPORTANCIA -->
+      <section id="importancia">
+        <h2>Importancia de la ofimática</h2>
+        <p class="lead">Dominar estas herramientas es hoy una habilidad básica en casi cualquier trabajo o estudio.</p>
+        <ul class="ventajas">
+          <li><span class="ventajas__marca"></span><span><strong>Productividad:</strong> automatiza tareas repetitivas como cálculos o formatos.</span></li>
+          <li><span class="ventajas__marca"></span><span><strong>Organización:</strong> centraliza documentos, datos y comunicación en un mismo lugar.</span></li>
+          <li><span class="ventajas__marca"></span><span><strong>Colaboración:</strong> varias personas pueden editar y revisar el mismo archivo.</span></li>
+          <li><span class="ventajas__marca"></span><span><strong>Presentación profesional:</strong> da formato claro y ordenado a cualquier trabajo.</span></li>
+          <li><span class="ventajas__marca"></span><span><strong>Ahorro de tiempo:</strong> reduce el trabajo manual y los errores de cálculo.</span></li>
+        </ul>
+      </section>
+
+      <!-- esto es para el mensaje o la nota-->
+      <section id="notas">
+        <h2>MENSAJE</h2>
+        <div class="nota">
+          <h4>RECUERDA:</h4>
+          <p>«La tecnología es una herramienta, pero tu curiosidad, creatividad y capacidad de aprender son las que le dan sentido»</p>
+        </div>
+
+      </section>
+
+      <footer>
+         Ésta es una página elaborada con fines académicos.
+      </footer>
+
+    </div>
+  </main>
+<script src="script.js" defer></script>
+
+
+</body>
+</html>

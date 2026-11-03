@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Curso de presentaciones — Ofimática</title>
+<link rel="icon" type="image/png" href="img/logo-eddi.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- BANNER SUPERIOR -->
+  <header class="banner">
+    <a class="banner__brand" href="index.html">
+      <span class="banner__text">
+        <span class="banner__title">EDDI</span>
+        <span class="banner__subtitle">Entorno Digital de Desarrollo Interactivo</span>
+      </span>
+    </a>
+    <img class="banner__logo" src="img/logo-eddi.png" alt="Logo de EDDI" width="192" height="192">
+  </header>
+
+  <!-- BARRA LATERAL: enlaces a las secciones de esta página -->
+  <nav class="ribbon" aria-label="Secciones del curso">
+    <div class="ribbon__brand">
+      Ofimática
+      <span>Curso de presentaciones</span>
+    </div>
+    <ul>
+      <li><a href="index.html">Volver a la guía</a></li>
+      <li><a href="#bienvenida">Bienvenida</a></li>
+      <li><a href="#aprenderas">Lo que aprenderás</a></li>
+      <li><a href="#powerpoint">PowerPoint</a></li>
+      <li><a href="#canva">Canva</a></li>
+      <li><a href="#youtube">Videos de YouTube</a></li>
+      <li><a href="#otros-cursos">Otros cursos</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <div class="container">
+
+      <!-- BIENVENIDA -->
+      <header class="hero hero--course" id="bienvenida">
+        <div class="hero__text">
+          <h1>BIENVENIDO AL CURSO DE PRESENTACIONES</h1>
+          <hr class="hero__rule">
+          <p>En este curso aprenderás a crear presentaciones claras y atractivas con PowerPoint y a diseñar piezas visuales con Canva: desde elegir un diseño hasta exponer tu tema con seguridad frente a un público.</p>
+        </div>
+        <div class="hero__art">
+          <img src="img/powerpoint.png" alt="Logo de PowerPoint" width="380" height="325">
+        </div>
+      </header>
+
+      <!-- LO QUE APRENDERÁS -->
+      <section id="aprenderas">
+        <h2>Lo que aprenderás</h2>
+        <p class="lead">Al terminar el curso podrás:</p>
+        <ul class="ventajas">
+          <li><span class="ventajas__marca"></span><span>Crear una presentación y elegir el diseño de cada diapositiva.</span></li>
+          <li><span class="ventajas__marca"></span><span>Organizar la información con títulos, listas e imágenes.</span></li>
+          <li><span class="ventajas__marca"></span><span>Insertar imágenes, formas, gráficos y videos.</span></li>
+          <li><span class="ventajas__marca"></span><span>Aplicar transiciones y animaciones sin saturar la diapositiva.</span></li>
+          <li><span class="ventajas__marca"></span><span>Usar el modo presentador para exponer con seguridad.</span></li>
+          <li><span class="ventajas__marca"></span><span>Crear diseños en Canva, como publicaciones para redes sociales y un currículum.</span></li>
+        </ul>
+      </section>
+
+      <!-- POWERPOINT -->
+      <section id="powerpoint">
+        <h2>PowerPoint</h2>
+        <p class="lead">Primero el documento de estudio y después el video.</p>
+        <h3 class="grupo__titulo">Documento</h3>
+        <ul class="docs">
+          <li class="doc">
+            <div>
+              <span class="doc__name">Curso de PowerPoint</span>
+              <span class="doc__meta">PDF, 176 páginas, 3,4 MB</span>
+            </div>
+            <div class="doc__acciones">
+              <a class="btn btn--small" href="docs/presentaciones/curso-de-power-point.pdf" target="_blank" rel="noopener">Abrir</a>
+              <a class="btn btn--small" href="docs/presentaciones/curso-de-power-point.pdf" download>Descargar</a>
+            </div>
+          </li>
+        </ul>
+        <h2>Video de introducción</h2>
+        <div class="videos">
+          <div class="video">
+            <div class="video__frame">
+              <video controls playsinline preload="metadata" src="videos/presentaciones/dominando-powerpoint.mp4">
+                Tu navegador no puede reproducir este video.
+              </video>
+            </div>
+            <h3>Dominando PowerPoint</h3>
+            <p>Duración: 8 min 5 s</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- CANVA -->
+      <section id="canva">
+        <h2>Canva</h2>
+        <p class="lead">Primero el documento de estudio y después el video.</p>
+        <h3 class="grupo__titulo">Documento</h3>
+        <ul class="docs">
+          <li class="doc">
+            <div>
+              <span class="doc__name">Guía manual de Canva</span>
+              <span class="doc__meta">PDF, 23 páginas, 3,8 MB</span>
+            </div>
+            <div class="doc__acciones">
+              <a class="btn btn--small" href="docs/presentaciones/guia-manual-canva-final.pdf" target="_blank" rel="noopener">Abrir</a>
+              <a class="btn btn--small" href="docs/presentaciones/guia-manual-canva-final.pdf" download>Descargar</a>
+            </div>
+          </li>
+        </ul>
+        <h3 class="grupo__titulo">Video</h3>
+        <div class="videos">
+          <div class="video">
+            <div class="video__frame">
+              <video controls playsinline preload="metadata" src="videos/presentaciones/canva-democratizar-el-diseno.mp4">
+                Tu navegador no puede reproducir este video.
+              </video>
+            </div>
+            <h3>Canva: democratizar el diseño</h3>
+            <p>Duración: 6 min 6 s</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- VIDEOS DE YOUTUBE -->
+      <section id="youtube">
+        <h2>Videos de YouTube</h2>
+        <p class="lead">Enlaces a videos complementarios del curso.</p>
+        <p class="lead">ACLARACIÓN Y RECOMENDACIÓN: Los videos utilizados pueden ser largos, así que recomendamos 
+          dividir tu tiempo para aprender una sección específica sin confundirte </p>
+
+        <div class="enlaces">
+          <a class="enlace" href="https://youtu.be/9bhEECia5qI" target="_blank" rel="noopener">
+            <span class="enlace__icono" aria-hidden="true"></span>
+            <span class="enlace__titulo">
+✨ PowerPoint 2025 Desde Cero | Curso Completo Gratis en Español 🔥</span>
+            <span class="enlace__estado"></span>
+          </a>
+          <a class="enlace" href="https://youtu.be/dWVgxJdPV1k" target="_blank" rel="noopener">
+            <span class="enlace__icono" aria-hidden="true"></span>
+            <span class="enlace__titulo">
+Cómo usar GOOGLE SLIDES: Curso completo Paso a Paso (2026)</span>
+            <span class="enlace__estado"></span>
+          </a>
+          <a class="enlace" href="https://youtu.be/fdxnEr61Z5c" target="_blank" rel="noopener">
+            <span class="enlace__icono" aria-hidden="true"></span>
+            <span class="enlace__titulo">
+MEGA CURSO de Canva GRATIS ✅ - Masterclass - Tutorial Completo Desde Cero</span>
+            <span class="enlace__estado"></span>
+          </a>
+        </div>
+      </section>
+
+      <!-- OTROS CURSOS -->
+      <section id="otros-cursos">
+        <h2>Otros cursos</h2>
+        <p class="lead">Continúa con otra herramienta de la guía.</p>
+        <div class="cursos-links">
+          <a class="btn" href="procesador-texto.html">Procesador de textos</a>
+          <a class="btn" href="hoja-calculo.html">Hoja de cálculo</a>
+          <a class="btn" href="base-datos.html">Base de datos</a>
+          <a class="btn" href="correo-agenda.html">Correo y agenda</a>
+          <a class="btn btn--solid" href="index.html">Volver a la guía</a>
+        </div>
+      </section>
+
+      <footer>
+         Ésta es una página elaborada con fines académicos.
+      </footer>
+
+    </div>
+  </main>
+<script src="script.js" defer></script>
+
+</body>
+</html>

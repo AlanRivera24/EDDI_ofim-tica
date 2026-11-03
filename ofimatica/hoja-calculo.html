@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Curso de hoja de cálculo — Ofimática</title>
+<link rel="icon" type="image/png" href="img/logo-eddi.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- BANNER SUPERIOR -->
+  <header class="banner">
+    <a class="banner__brand" href="index.html">
+      <span class="banner__text">
+        <span class="banner__title">EDDI</span>
+        <span class="banner__subtitle">Entorno Digital de Desarrollo Interactivo</span>
+      </span>
+    </a>
+    <img class="banner__logo" src="img/logo-eddi.png" alt="Logo de EDDI" width="192" height="192">
+  </header>
+
+  <!-- BARRA LATERAL: enlaces a las secciones de esta página -->
+  <nav class="ribbon" aria-label="Secciones del curso">
+    <div class="ribbon__brand">
+      Ofimática
+      <span>Curso de hoja de cálculo</span>
+    </div>
+    <ul>
+      <li><a href="index.html">Volver a la guía</a></li>
+      <li><a href="#bienvenida">Bienvenida</a></li>
+      <li><a href="#aprenderas">Lo que aprenderás</a></li>
+      <li><a href="#documentos">Documentos</a></li>
+      <li><a href="#videos">Videos</a></li>
+      <li><a href="#youtube">Videos de YouTube</a></li>
+      <li><a href="#otros-cursos">Otros cursos</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <div class="container">
+
+      <!-- BIENVENIDA -->
+      <header class="hero hero--course" id="bienvenida">
+        <div class="hero__text">
+          <h1>BIENVENIDO AL CURSO DE HOJA DE CÁLCULO</h1>
+          <hr class="hero__rule">
+          <p>En este curso aprenderás a organizar datos en filas y columnas, hacer cálculos automáticos con fórmulas y mostrar los resultados en gráficos con Excel. Al final podrás armar tus propias tablas de notas, presupuestos o inventarios.</p>
+        </div>
+        <div class="hero__art">
+          <img src="img/excel.png" alt="Logo de Excel" width="360" height="333">
+        </div>
+      </header>
+
+      <!-- LO QUE APRENDERÁS -->
+      <section id="aprenderas">
+        <h2>Lo que aprenderás</h2>
+        <p class="lead">Al terminar el curso podrás:</p>
+        <ul class="ventajas">
+          <li><span class="ventajas__marca"></span><span>Moverte por la hoja: celdas, filas, columnas y rangos.</span></li>
+          <li><span class="ventajas__marca"></span><span>Escribir fórmulas y funciones básicas: SUMA, PROMEDIO, MAX, MIN y SI.</span></li>
+          <li><span class="ventajas__marca"></span><span>Dar formato a las tablas y aplicar formato condicional.</span></li>
+          <li><span class="ventajas__marca"></span><span>Ordenar y filtrar datos.</span></li>
+          <li><span class="ventajas__marca"></span><span>Crear gráficos de barras, líneas y circulares.</span></li>
+        </ul>
+      </section>
+
+      <!-- DOCUMENTOS -->
+      <section id="documentos">
+        <h2>Documentos del curso</h2>
+        <p class="lead">Empieza por el documento básico y sigue con el intermedio.</p>
+        <!--
+          CÓMO AGREGAR OTRO DOCUMENTO
+          1. Guarda el PDF en la carpeta docs/ (en la subcarpeta de este curso, sin espacios ni tildes en el nombre).
+          2. Copia un bloque <li class="doc"> ... </li> completo y pégalo debajo.
+          3. Cambia el título, el texto de "doc__meta" y el nombre del archivo en los dos href.
+        -->
+        <ul class="docs">
+          <li class="doc">
+            <div>
+              <span class="doc__name">Guía de Excel básico (2022)</span>
+              <span class="doc__meta">PDF, 65 páginas, 6,8 MB</span>
+            </div>
+            <div class="doc__acciones">
+              <a class="btn btn--small" href="docs/hoja-calculo/guia-excel-basico-2022.pdf" target="_blank" rel="noopener">Abrir</a>
+              <a class="btn btn--small" href="docs/hoja-calculo/guia-excel-basico-2022.pdf" download>Descargar</a>
+            </div>
+          </li>
+          <li class="doc">
+            <div>
+              <span class="doc__name">Manual de Excel intermedio</span>
+              <span class="doc__meta">PDF, 40 páginas, 1,7 MB</span>
+            </div>
+            <div class="doc__acciones">
+              <a class="btn btn--small" href="docs/hoja-calculo/manual-excel-intermedio.pdf" target="_blank" rel="noopener">Abrir</a>
+              <a class="btn btn--small" href="docs/hoja-calculo/manual-excel-intermedio.pdf" download>Descargar</a>
+            </div>
+          </li>
+        </ul>
+      </section>
+
+      <!-- VIDEOS -->
+      <section id="videos">
+       <h2>Video de introducción</h2>
+       
+        <div class="videos">
+          <div class="video">
+            <div class="video__frame">
+              <video controls playsinline preload="metadata" src="videos/hoja-calculo/excel-analisis-profundo.mp4">
+                Tu navegador no puede reproducir este video.
+              </video>
+            </div>
+            <h3>Excel: análisis profundo</h3>
+            <p>Duración: 7 min 54 s</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- VIDEOS DE YOUTUBE -->
+      <section id="youtube">
+        <h2>Videos de YouTube</h2>
+        <p class="lead">Enlaces a videos complementarios del curso.</p>
+        <p class="lead">ACLARACIÓN Y RECOMENDACIÓN: Los videos utilizados pueden ser largos, así que recomendamos 
+          dividir tu tiempo para aprender una sección específica sin confundirte </p>
+        
+        <div class="enlaces">
+          <a class="enlace" href="https://youtu.be/eZPCVg4Jk00" target="_blank" rel="noopener">
+            <span class="enlace__icono" aria-hidden="true"></span>
+            <span class="enlace__titulo">
+CURSO DE EXCEL COMPLETO EN 1 VÍDEO - BÁSICO E INTERMEDIO - Dostin Hurtado</span>
+            <span class="enlace__estado"></span>
+          </a>
+          <a class="enlace" href="https://youtu.be/CfFsi-6k804" target="_blank" rel="noopener">
+            <span class="enlace__icono" aria-hidden="true"></span>
+            <span class="enlace__titulo">
+Curso Completo de Excel desde Cero: Fórmulas, Lógica, Tablas y Gráficos Dinámicos</span>
+            <span class="enlace__estado"></span>
+          </a>
+          <a class="enlace" href="https://youtu.be/hoMFIS5jZQY" target="_blank" rel="noopener">
+            <span class="enlace__icono" aria-hidden="true"></span>
+            <span class="enlace__titulo">
+Curso de Google Sheets 2023 - El Tío Tech</span>
+            <span class="enlace__estado"></span>
+          </a>
+        </div>
+      </section>
+
+      <!-- OTROS CURSOS -->
+      <section id="otros-cursos">
+        <h2>Otros cursos</h2>
+        <p class="lead">Continúa con otra herramienta de la guía.</p>
+        <div class="cursos-links">
+          <a class="btn" href="procesador-texto.html">Procesador de textos</a>
+          <a class="btn" href="presentaciones.html">Presentaciones</a>
+          <a class="btn" href="base-datos.html">Base de datos</a>
+          <a class="btn" href="correo-agenda.html">Correo y agenda</a>
+          <a class="btn btn--solid" href="index.html">Volver a la guía</a>
+        </div>
+      </section>
+
+      <footer>
+         Ésta es una página elaborada con fines académicos.
+      </footer>
+
+    </div>
+  </main>
+<script src="script.js" defer></script>
+
+</body>
+</html>
